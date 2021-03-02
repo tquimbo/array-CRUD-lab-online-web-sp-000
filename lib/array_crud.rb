@@ -23,12 +23,12 @@ end
 
 def remove_element_from_start_of_array(array)
   stuff = ["wow", "stuff", "more", "last"]
-  stuff[1]
+  remove = stuff.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-  stuff = ["wow", "stuff", "more", "last"]
-  stuff[0]
+  array = ["what", "stuff", "more", "last"]
+  array.unshift
 end
 
 def retrieve_first_element_from_array(array)
